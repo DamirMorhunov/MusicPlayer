@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="4SHX.gif" />
+    <None Remove="button_minus_green.png" />
+    <None Remove="close.png" />
+    <None Remove="controls_rewind_32 %281%29.png" />
+    <None Remove="controls_rewind_32.png" />
+    <None Remove="expand.png" />
+    <None Remove="media-play %281%29.png" />
+    <None Remove="playback_next %281%29.png" />
+    <None Remove="playback_next.png" />
+    <None Remove="stop.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="4SHX.gif" />
+    <Resource Include="PNG\playback_next.png" />
+    <Resource Include="PNG\media-play %281%29.png" />
+    <Resource Include="PNG\playback_next %281%29.png" />
+    <Resource Include="PNG\close.png" />
+    <Resource Include="PNG\expand.png" />
+    <Resource Include="PNG\button_minus_green.png" />
+    <Resource Include="PNG\stop.png" />
+  </ItemGroup>
+
+</Project>
